@@ -1,50 +1,11 @@
 {
-  "name": "mixed",
-  "author": "Alan Plum <me@pluma.io>",
-  "version": "0.4.0",
+  "name": "pluma-mixed",
   "description": "Minimalist, lightweight, ES5-compatible mixins.",
-  "licenses": {
-    "type": "UNLICENSE",
-    "url": "https://github.com/pluma/mixed/blob/master/UNLICENSE"
-  },
+  "version": "0.4.0",
   "keywords": [
     "mixin"
   ],
   "main": "./dist/mixed.js",
   "dependencies": {},
-  "devDependencies": {
-    "mocha": "~1.17",
-    "expect.js": "~0.3",
-    "uglify-js": "~2.4",
-    "jshint": "~2.4",
-    "istanbul": "~0.2",
-    "coveralls": "~2.8"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/pluma/mixed.git"
-  },
-  "scripts": {
-    "test": "make test",
-    "coveralls": "make coveralls"
-  },
-  "engines": {
-    "node": ">=0.6"
-  },
-  "testling": {
-    "files": "spec/*.js",
-    "harness": "mocha",
-    "browsers": [
-      "chrome/latest",
-      "chrome/canary",
-      "firefox/3.6..4",
-      "firefox/latest",
-      "firefox/nightly",
-      "opera/10",
-      "opera/latest",
-      "opera/next",
-      "safari/4..latest",
-      "ie/6..latest"
-    ]
-  }
+  "license": "UNLICENSE"
 }

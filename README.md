@@ -1,3 +1,4 @@
+*This repository is a mirror of the [component](http://component.io) module [pluma/mixed](http://github.com/pluma/mixed). It has been modified to work with NPM+Browserify. You can install it using the command `npm install npmcomponent/pluma-mixed`. Please do not open issues or send pull requests against this repo. If you have issues with this repo, report it to [npmcomponent](https://github.com/airportyh/npmcomponent).*
 # Synopsis
 
 **mixed** is a minimalist, lightweight, ES3-compatible function to mix Constructor functions and their prototypes into instance objects.
